@@ -11,5 +11,13 @@ things_to_do = [
   '👴🏻 Grow old with no regrets.'
 ]
 print(things_to_do[1:6])
-things_to_do.append('what the heck happening?')
+things_to_do.append('what the heck is happening?')
+print(things_to_do)
+things_to_do.remove('what the heck is happening?')
+print(things_to_do)
+things_to_do.pop(0)
+print(things_to_do)
+things_to_do.pop(0)
+print(things_to_do)
+things_to_do.insert(2,'Hike the pacific crest trail')
 print(things_to_do)
